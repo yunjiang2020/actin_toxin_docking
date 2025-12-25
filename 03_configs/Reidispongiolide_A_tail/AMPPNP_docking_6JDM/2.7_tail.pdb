@@ -1,0 +1,169 @@
+HELIX    1   1 ASP A   56  SER A   60  1                                   5
+HELIX    2   2 ARG A   62  ILE A   64  1                                   3
+HELIX    3   3 TRP A   79  LEU A   94  1                                  16
+HELIX    4   4 LYS A  113  GLU A  125  1                                  13
+HELIX    5   5 GLN A  137  TYR A  143  1                                   7
+HELIX    6   6 GLY A  182  ILE A  192  1                                  11
+HELIX    7   7 THR A  203  LEU A  216  1                                  14
+HELIX    8   8 PHE A  223  THR A  229  1                                   7
+HELIX    9   9 GLU A  253  ARG A  256  1                                   4
+HELIX   10  10 PRO A  258  LEU A  261  1                                   4
+HELIX   11  11 PRO A  264  ILE A  267  1                                   4
+HELIX   12  12 ILE A  274  ILE A  282  1                                   9
+HELIX   13  13 ARG A  290  TYR A  294  1                                   5
+HELIX   14  14 GLY A  302  MET A  305  1                                   4
+HELIX   15  15 ILE A  309  THR A  318  1                                  10
+HELIX   16  16 SER A  338  ILE A  345  1                                   8
+HELIX   17  17 LEU A  346  SER A  348  1                                   3
+HELIX   18  18 LYS A  359  ASP A  363  1                                   5
+HELIX   19  19 GLY A  366  VAL A  370  1                                   5
+SHEET    1   1 1 LEU A   8  ASN A  12  0
+SHEET    2   2 1 LEU A  16  PHE A  21  0
+SHEET    3   3 1 ALA A  29  PRO A  32  0
+SHEET    4   4 1 VAL A  35  PRO A  38  0
+SHEET    5   5 1 LEU A  65  LYS A  68  0
+SHEET    6   6 1 THR A 103  GLU A 107  0
+SHEET    7   7 1 MET A 132  ILE A 136  0
+SHEET    8   8 1 GLY A 150  SER A 155  0
+SHEET    9   9 1 THR A 160  ILE A 165  0
+SHEET   10  10 1 MET A 176  LEU A 178  0
+SHEET   11  11 1 LYS A 238  GLU A 241  0
+SHEET   12  12 1 VAL A 247  ILE A 250  0
+SHEET   13  13 1 ASN A 297  SER A 300  0
+MODEL        1
+ENDMDL
+MODEL        2
+ENDMDL
+MODEL        3
+ENDMDL
+MODEL        4
+ENDMDL
+MODEL        5
+ENDMDL
+MODEL        6
+ENDMDL
+MODEL        7
+ENDMDL
+MODEL        8
+ENDMDL
+MODEL        9
+HETATM    1  C   UNL     1     142.026 172.859 190.792  0.00  0.00           C
+HETATM    2  C   UNL     1     141.920 172.186 192.180  0.00  0.00           C
+HETATM    3  C   UNL     1     143.512 173.302 190.579  0.00  0.00           C
+HETATM    4  C   UNL     1     144.553 172.268 191.125  0.00  0.00           C
+HETATM    5  C   UNL     1     144.974 171.309 189.999  0.00  0.00           C
+HETATM    6  C   UNL     1     145.797 172.941 191.753  0.00  0.00           C
+HETATM    7  C   UNL     1     146.861 173.316 190.724  0.00  0.00           C
+HETATM    8  C   UNL     1     148.254 173.109 191.286  0.00  0.00           C
+HETATM    9  O   UNL     1     149.218 173.691 190.780  0.00  0.00           O
+HETATM   10  C   UNL     1     148.406 172.194 192.498  0.00  0.00           C
+HETATM   11  C   UNL     1     149.137 172.928 193.630  0.00  0.00           C
+HETATM   12  C   UNL     1     149.034 170.825 192.143  0.00  0.00           C
+HETATM   13  C   UNL     1     148.205 169.980 191.142  0.00  0.00           C
+HETATM   14  C   UNL     1     147.975 168.584 191.646  0.00  0.00           C
+HETATM   15  C   UNL     1     148.332 168.165 192.867  0.00  0.00           C
+HETATM   16  N   UNL     1     148.203 166.884 193.375  0.00  0.00           N
+HETATM   17  C   UNL     1     146.995 166.257 193.676  0.00  0.00           C
+HETATM   18  O   UNL     1     145.853 166.656 193.486  0.00  0.00           O
+HETATM   19  C   UNL     1     149.430 166.104 193.484  0.00  0.00           C
+HETATM   20  O   UNL     1     150.343 171.065 191.592  0.00  0.00           O
+HETATM   21  C   UNL     1     151.348 170.213 192.130  0.00  0.00           C
+HETATM   22  O   UNL     1     143.781 174.557 191.203  0.00  0.00           O
+HETATM   23  C   UNL     1     142.750 175.517 191.005  0.00  0.00           C
+ENDMDL
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4   22
+CONECT    4    3    5    6
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11   12
+CONECT   11   10
+CONECT   12   10   13   20
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   19
+CONECT   17   16   18
+CONECT   18   17
+CONECT   19   16
+CONECT   20   12   21
+CONECT   21   20
+CONECT   22    3   23
+CONECT   23   22
+MODEL       10
+ENDMDL
+MODEL       11
+ENDMDL
+MODEL       12
+ENDMDL
+MODEL       13
+ENDMDL
+MODEL       14
+ENDMDL
+MODEL       15
+ENDMDL
+MODEL       16
+ENDMDL
+MODEL       17
+ENDMDL
+MODEL       18
+ENDMDL
+MODEL       19
+ENDMDL
+MODEL       20
+ENDMDL
+MODEL       21
+ENDMDL
+MODEL       22
+ENDMDL
+MODEL       23
+ENDMDL
+MODEL       24
+ENDMDL
+MODEL       25
+ENDMDL
+MODEL       26
+ENDMDL
+MODEL       27
+ENDMDL
+MODEL       28
+ENDMDL
+MODEL       29
+ENDMDL
+MODEL       30
+ENDMDL
+MODEL       31
+ENDMDL
+MODEL       32
+ENDMDL
+MODEL       33
+ENDMDL
+MODEL       34
+ENDMDL
+MODEL       35
+ENDMDL
+MODEL       36
+ENDMDL
+MODEL       37
+ENDMDL
+MODEL       38
+ENDMDL
+MODEL       39
+ENDMDL
+MODEL       40
+ENDMDL
+MODEL       41
+ENDMDL
+MODEL       42
+ENDMDL
+MODEL       43
+ENDMDL
+MODEL       44
+ENDMDL
+MODEL       45
+ENDMDL
+END

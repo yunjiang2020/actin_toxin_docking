@@ -1,0 +1,17 @@
+name: actin-toxin-docking
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  # Chemistry / docking
+  - rdkit
+  - openbabel
+  - autodock-vina
+
+  # ML / analysis
+  - scikit-learn
+  - numpy
+  - pandas
+
+

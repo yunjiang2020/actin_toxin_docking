@@ -1,0 +1,12 @@
+#docking to AMPPNP binding actin (6DJM)
+python Vina_docking.py --vina vina --receptor 6DJM_chainA_receptor_vina.pdbqt --ligands_dir ligand_single --out_dir vina_results  --center 145.332  171.816  195.8805 --size 41 45 46 --exhaustiveness 16 --num_modes 10 --cpu 8 
+
+#docking to AMPPNP binding actin (6DJM) with a smaller searching box
+python Vina_docking.py --vina vina --receptor 6DJM_chainA_receptor_vina.pdbqt --ligands_dir ligand_single --out_dir vina_results_tight_box  --center 145.332  171.816  195.8805 --size 32 32 32 --exhaustiveness 16 --num_modes 10 --cpu 8
+
+#docking to ADP binding actin (6DJO)
+python Vina_docking.py --vina vina --receptor 6DJO_chainA_receptor_vina.pdbqt --ligands_dir ligand_single --out_dir vina_results_ADP  --center 145.332  171.816  195.8805 --size 41 45 46 --exhaustiveness 16 --num_modes 10 --cpu 8
+
+#docking to G-actin monomer (2ASM)
+python Vina_docking.py --vina vina --receptor receptor_monomer.pdbqt --ligands_dir ligand_sele --out_dir vina_results_monomer  --center -2.008 8.336 16.077  --size 28 32 32 --exhaustiveness 16 --num_modes 10 --cpu 8
+

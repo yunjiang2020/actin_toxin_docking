@@ -1,0 +1,9 @@
+#calculate clashes
+clashes #protein restrict #ligand & ~H cutoff0.4/0.6/0.8
+
+#calculate RMSD
+rmsd (#ligand_1 & ~H) to (#GroundTruth & ~H)
+
+#calculate ligand contact number
+#Based on the 29 heavy atoms (~H) of Reidispongiolide A's tail region
+contacts  (#ligand & ~H) restrict  (#protein) radius 4.0
